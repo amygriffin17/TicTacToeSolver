@@ -1,0 +1,14 @@
+{
+  "name": "tictactoesolver",
+  "version": "1.0.0",
+  "description": "TicTacToe solver for simplisafe",
+  "main": "TicTacToe.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Amy Griffin <amgriffin@middlebury.edu>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
