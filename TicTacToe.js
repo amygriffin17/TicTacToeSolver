@@ -66,7 +66,8 @@ class TicTacToe{
      * @returns {boolean} - Returns true if there is a winning condition or if there's no moves left, otherwise false
      */
     isGameOver(board){
-        return this.checkWin(board) || !this.anyMovesLeft(board);
+        // If there's a winning condition, anyMovesLeft will return false as seen on line 60
+        return !this.anyMovesLeft(board);
     }
 }
 
